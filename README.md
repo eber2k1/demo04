@@ -1,6 +1,12 @@
 # Gestor de Usuarios con React + Vite
 
+[![Deploy to GitHub Pages](https://github.com/eber2k1/demo04/actions/workflows/deploy.yml/badge.svg)](https://github.com/eber2k1/demo04/actions/workflows/deploy.yml)
+
 Aplicación web desarrollada con React, Vite y Tailwind CSS para visualizar y gestionar usuarios. La aplicación consume datos de la API pública [JSONPlaceholder](https://jsonplaceholder.typicode.com/).
+
+## 🌐 Demo
+
+La aplicación está desplegada en GitHub Pages: [Ver Demo](https://eber2k1.github.io/demo04/)
 
 ## 🚀 Características
 
@@ -48,7 +54,7 @@ src/
 
 1. Clona el repositorio:
    ```bash
-   git clone [URL_DEL_REPOSITORIO]
+   git clone https://github.com/eber2k1/demo04.git
    cd demo04
    ```
 
@@ -73,7 +79,3 @@ src/
 1. La aplicación muestra una lista de usuarios en el panel izquierdo
 2. Haz clic en el botón "Ver" de cualquier usuario para ver sus detalles en el panel derecho
 3. Los detalles incluyen información personal, dirección y datos de la empresa
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
