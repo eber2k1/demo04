@@ -21,9 +21,8 @@ export const ListUser = () => {
 
     return (
         <div className="font-mono border border-gray-200 rounded-lg p-4">
-            <h1 className="text-2xl font-bold mb-4">Detalles del Usuario</h1>
+            <h1 className="text-2xl font-bold mb-4">{user.name}</h1>
             <ul className="space-y-2">
-                <li><span className="font-semibold">Nombre:</span> {user.name}</li>
                 <li><span className="font-semibold">Correo:</span> {user.email}</li>
                 <li><span className="font-semibold">Teléfono:</span> {user.phone}</li>
                 <li>
